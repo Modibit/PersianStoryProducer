@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Harmattan', sans-serif;
+
+
+}
+
+#h1 {
+    /*font-family: 'UnifrakturMaguntia', cursive;*/
+    font-weight: 300;
+    font-size: 4em;
+    justify-content: center;
+    text-shadow: 3px 3px rgba(35, 12, 138, 0.288);
+    background-color: rgba(243, 198, 0, 0.671);
+    color: white;
+    padding: .25em;
+    margin: 0;
+    box-shadow: 1px 1px 1px 1px rgb(206, 204, 204);
+    position: fixed;
+    display: flex;
+    width: 100%;
+}
+div{
+height:  12em   ;
+}
+#generate:hover{
+    color: white;
+    background-color: rgb(145, 18, 18);
+}
+#generate:active{
+    background-color: rgb(35, 12, 138);
+}
+#generate {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: .5em;
+    margin: .5em;
+    box-shadow: 1px 1px 1px 1px rgb(206, 204, 204);
+    background-color: rgb(255, 145, 0);
+    color: rgb(35, 12, 138);
+    border: none;
+    border-radius: 30px;
+    outline: none;
+ 
+}
+
+#sentences p {
+    box-shadow: 1px 1px 1px 1px rgb(206, 204, 204);
+    margin: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1em;
+    border-radius: 40px;
+    font-size: 1.5em;
+}
